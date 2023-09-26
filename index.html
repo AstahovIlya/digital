@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Training project</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oswald:wght@300;400;500;700&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+   <script defer src="script.js"></script>
+</head>
+
+<body>
+   <header class="header">
+      <div class="header__container">
+         <nav class="header__menu menu">
+            <ul class="menu__list">
+               <li class="menu__item"><a href="" class="menu__link">WORKS</a></li>
+               <li class="menu__item"><a href="" class="menu__link">ABOUT</a></li>
+               <li class="menu__item"><a href="" class="menu__link">SERVICES</a></li>
+               <li class="menu__item"><a href="" class="menu__link">BLOG</a></li>
+               <li class="menu__item"><a href="" class="menu__link">CONTACT</a></li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+   <main>
+      <section class="home swiper">
+         <div class="swiper-wrapper">
+            <article class="swiper-slide slide">
+               <h1 class="slide__title">WHERE GREAT IDEAS COME TO LIFE</h1>
+               <p class="slide__subtitle">Passionate creative studio helping startups grow their business!</p>
+               <img src="./img/main/1.jpg" alt="workplace" class="slide__fon">
+            </article>
+            <article class="swiper-slide slide">
+               <h2 class="slide__title">WHERE GREAT IDEAS COME TO LIFE</h2>
+               <p class="slide__subtitle">Passionate creative studio helping startups grow their business!</p>
+               <img src="./img/main/1.jpg" alt="workplace" class="slide__fon">
+            </article>
+            <article scale(1); class="swiper-slide slide">
+               <h2 class="slide__title">WHERE GREAT IDEAS COME TO LIFE</h2>
+               <p class="slide__subtitle">Passionate creative studio helping startups grow their business!</p>
+               <img src="./img/main/1.jpg" alt="workplace" class="slide__fon">
+            </article>
+         </div>
+         <div class="swiper-pagination"></div>
+      </section>
+      <section class="we-are">
+         <div class="we-are__container">
+            <h2 class="we-are__title">WE ARE <br> <span>THE SQWD</span></h2>
+            <div class="we-are__fon">
+               <div class="we-are__card"><img src="./img/we-are/1.png" alt="we-are"></div>
+               <div class="we-are__card"></div>
+               <div class="we-are__card"><img src="./img/we-are/2.png" alt="we-are"></div>
+            </div>
+            <p class="we-are__advantage we-are__advantage_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+               sed do eiusmod tempor incididunt.</p>
+            <p class="we-are__advantage we-are__advantage_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+               sed do eiusmod tempor incididunt.</p>
+         </div>
+      </section>
+      <section class="services">
+         <div class="services__container">
+            <h2 class="services__title title">Our Services</h2>
+            <section class="services__benefit benefit">
+               <article class="benefit__item">
+                  <h3 class="benefit__title">Branding</h3>
+                  <div class="benefit__icon"><img src="./img/services/1.png" alt="Branding"></div>
+                  <p class="benefit__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                     tempor incididunt.</p>
+                  <a href="#" class="benefit__link">READ MORE</a>
+               </article>
+               <article class="benefit__item">
+                  <h3 class="benefit__title">DESIGN</h3>
+                  <div class="benefit__icon"><img src="./img/services/2.png" alt="DESIGN"></div>
+                  <p class="benefit__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                     tempor incididunt.</p>
+                  <a href="#" class="benefit__link">READ MORE</a>
+               </article>
+               <article class="benefit__item">
+                  <h3 class="benefit__title">DEVELOPMENT</h3>
+                  <div class="benefit__icon"><img src="./img/services/3.png" alt="DEVELOPMENT"></div>
+                  <p class="benefit__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                     tempor incididunt.</p>
+                  <a href="#" class="benefit__link">READ MORE</a>
+               </article>
+            </section>
+         </div>
+      </section>
+      <section class="works">
+         <div class="works__container">
+            <div class="works__column">
+               <div class="works__header">
+                  <h2 class="works__title title">Latest Works</h2>
+                  <ul class="works__filter filter">
+                     <li class="filter__item">
+                        <input checked id="all" name="work" type="radio">
+                        <label for="all">ALL</label>
+                     </li>
+                     <li class="filter__item">
+                        <input id="web" name="work" type="radio">
+                        <label for="web">WEB DESIGN</label>
+                     </li>
+                     <li class="filter__item">
+                        <input id="brand" name="work" type="radio">
+                        <label for="brand">BRANDING</label>
+                     </li>
+                     <li class="filter__item">
+                        <input id="photo" name="work" type="radio">
+                        <label for="photo">PHOTOGRAPHY</label>
+                     </li>
+                     <li class="filter__item">
+                        <input id="illustration" name="work" type="radio">
+                        <label for="illustration">ILLUSTRATION</label>
+                     </li>
+                  </ul>
+               </div>
+               <article class="works__item item-works item-works_left">
+                  <h2 class="item-works__name"><a href="#">A KITTEN’S LIFE</a></h2>
+                  <div class="item-works__image"><img src="./img/works/2.png" alt="A KITTEN’S LIFE"></div>
+                  <p class="item-works__category">Photography</p>
+                  <p class="item-works__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <a href="#" class="item-works__link">READ MORE</a>
+               </article>
+               <article class="works__item item-works item-works_left">
+                  <h2 class="item-works__name"><a href="#">APPLE’s LOST MAGIC</a></h2>
+                  <div class="item-works__image"><img src="./img/works/4.png" alt="APPLE’s LOST MAGIC"></div>
+                  <p class="item-works__category">Photography</p>
+                  <p class="item-works__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <a href="#" class="item-works__link">READ MORE</a>
+               </article>
+            </div>
+            <div class="works__column">
+               <article class="works__item item-works item-works_right">
+                  <h2 class="item-works__name">100 YEARS PHOTOGRAPHY</h2>
+                  <div class="item-works__image"><img src="./img/works/1.png" alt="100 YEARS PHOTOGRAPHY"></div>
+                  <p class="item-works__category">Photography</p>
+                  <p class="item-works__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <a href="#" class="item-works__link">READ MORE</a>
+               </article>
+               <article class="works__item item-works item-works_right">
+                  <h2 class="item-works__name">GROOVEMADE PRODUCTS FOR MAC</h2>
+                  <div class="item-works__image"><img src="./img/works/3.png" alt="GROOVEMADE PRODUCTS FOR MAC"></div>
+                  <p class="item-works__category">Photography</p>
+                  <p class="item-works__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <a href="#" class="item-works__link">READ MORE</a>
+               </article>
+               <a href="#" class="works__link">view more</a>
+            </div>
+         </div>
+      </section>
+      <section class="team">
+         <div class="tem__container">
+            <h2 class="team__title title">The Team</h2>
+            <section class="team__workers">
+               <article class="worker">
+                  <img class="worker__foto" src="./img/team/1.png" alt="TOM JONES">
+                  <div class="worker__text">
+                     <h3 class="worker__name">TOM JONES</h3>
+                     <div class="diviver"></div>
+                     <p class="worker__position">Creative Director</p>
+                     <p class="worker__responsibilities">Create with simplicity in mind!</p>
+                  </div>
+               </article>
+               <article class="worker">
+                  <img class="worker__foto" src="./img/team/2.png" alt="MICHAEL FRAUP">
+                  <div class="worker__text">
+                     <h3 class="worker__name">MICHAEL FRAUP</h3>
+                     <div class="diviver"></div>
+                     <p class="worker__position">Creative Director</p>
+                     <p class="worker__responsibilities">Create with simplicity in mind!</p>
+                  </div>
+               </article>
+               <article class="worker">
+                  <img class="worker__foto" src="./img/team/3.png" alt="TOM JONES">
+                  <div class="worker__text">
+                     <h3 class="worker__name">TIM CAHILL</h3>
+                     <div class="diviver"></div>
+                     <p class="worker__position">Creative Director</p>
+                     <p class="worker__responsibilities">Create with simplicity in mind!</p>
+                  </div>
+               </article>
+            </section>
+         </div>
+
+      </section>
+      <section class="reviews">
+         <div class="reviews__container">
+            <div class="reviews__slider swiper">
+               <div class="swiper-wrapper">
+                  <article class="swiper-slide slide-reviews">
+                     <blockquote class="slide-reviews__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.</blockquote>
+                     <img src="./img/reviews/1.png" alt="quotation marks">
+                     <p class="slide-reviews__name">DAVID JAMES <span>/ Web Design</span></p>
+                     <div class="slide-reviews__rating">
+                        <img src="./img/reviews/2.png" alt="star">
+                        <img src="./img/reviews/2.png" alt="star">
+                        <img src="./img/reviews/2.png" alt="star">
+                        <img src="./img/reviews/2.png" alt="star">
+                        <img src="./img/reviews/2.png" alt="star">
+                     </div>
+                  </article>
+                  <article class="swiper-slide slide-reviews">
+                     <blockquote class="slide-reviews__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.</blockquote>
+                     <img src="./img/reviews/1.png" alt="quotation marks">
+                     <p class="slide-reviews__name">DAVID JAMES <span>/ Web Design</span></p>
+                     <div class="slide-reviews__rating">
+                        <img src="./img/reviews/2.png" alt="star">
+                        <img src="./img/reviews/2.png" alt="star">
+                        <img src="./img/reviews/2.png" alt="star">
+                        <img src="./img/reviews/2.png" alt="star">
+                        <img src="./img/reviews/2.png" alt="star">
+                     </div>
+                  </article>
+                  <article class="swiper-slide slide-reviews">
+                     <blockquote class="slide-reviews__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.</blockquote>
+                     <img src="./img/reviews/1.png" alt="quotation marks">
+                     <p class="slide-reviews__name">DAVID JAMES <span>/ Web Design</span></p>
+                     <div class="slide-reviews__rating">
+                        <img src="./img/reviews/2.png" alt="star">
+                        <img src="./img/reviews/2.png" alt="star">
+                        <img src="./img/reviews/2.png" alt="star">
+                        <img src="./img/reviews/2.png" alt="star">
+                        <img src="./img/reviews/2.png" alt="star">
+                     </div>
+                  </article>
+               </div>
+            </div>
+            <div class="button-prev"><img src="./img/reviews/3.png" alt="row"></div>
+            <div class="button-next"><img src="./img/reviews/3.png" alt="row"></div>
+         </div>
+      </section>
+      <section class="contacts">
+         <article class="contacts__column contacts__column_project">
+            <img src="./img/contacts/1.png" alt="icon">
+            <h2 class="contacts__title">Want to work together?</h2>
+            <a href="#" class="contacts__link">Amazing. Tell us about your project!</a>
+         </article>
+         <article class="contacts__column contacts__column_touch">
+            <img src="./img/contacts/2.png" alt="icon">
+            <h2 class="contacts__title">Contact us</h2>
+            <a href="#" class="contacts__link">Get in touch</a>
+         </article>
+      </section>
+   </main>
+   <footer class="footer">
+      <div class="footer__top">
+         <address class="address">
+            <p class="address__text">3rd Floor, Santa Monica Beach, CA, San Francisco</p>
+            <p class="address__text"><a class="address__link" href="tel:(359)0123456789">(359) 0 123 456 789</a> - <a
+                  class="address__link" href="mailto:info@yourmail.com">info@yourmail.com</a></p>
+         </address>
+         <ul class="social">
+            <li class="social__item"><a href="https://fb.com" class="social__link">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                     viewBox="0 0 400 400" xml:space="preserve">
+                     <desc>Created with Fabric.js 3.6.2</desc>
+                     <defs>
+                     </defs>
+                     <g transform="matrix(21.42 0 0 21.42 200 200)">
+                        <path
+                           style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill-rule: nonzero; opacity: 1;"
+                           transform=" translate(-12, -12)"
+                           d="M 13.397 20.997 v -8.196 h 2.765 l 0.411 -3.209 h -3.176 V 7.548 c 0 -0.926 0.258 -1.56 1.587 -1.56 h 1.684 V 3.127 A 22.336 22.336 0 0 0 14.201 3 c -2.444 0 -4.122 1.492 -4.122 4.231 v 2.355 H 7.332 v 3.209 h 2.753 v 8.202 h 3.312 z"
+                           stroke-linecap="round" />
+                     </g>
+                  </svg>
+               </a></li>
+            <li class="social__item"><a href="https://fb.com" class="social__link">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50"
+                     width="50px" height="50px">
+                     <path
+                        d="M50.061,10.438c-1.846,0.818-3.826,1.369-5.908,1.62c2.125-1.273,3.757-3.29,4.523-5.688c-1.986,1.177-4.19,2.033-6.531,2.493c-1.874-2-4.547-3.247-7.504-3.247c-5.68,0-10.284,4.604-10.284,10.282c0,0.805,0.092,1.589,0.269,2.343C16.08,17.812,8.502,13.718,3.429,7.497c-0.885,1.522-1.391,3.289-1.391,5.172c0,3.567,1.812,6.713,4.574,8.56c-1.688-0.054-3.271-0.517-4.657-1.288c0,0.044,0,0.086,0,0.131c0,4.984,3.544,9.134,8.245,10.084c-0.86,0.236-1.769,0.36-2.707,0.36c-0.664,0-1.309-0.064-1.938-0.186c1.313,4.081,5.108,7.06,9.607,7.143c-3.517,2.757-7.951,4.399-12.77,4.399c-0.833,0-1.649-0.048-2.452-0.144c4.548,2.919,9.956,4.619,15.762,4.619c18.915,0,29.26-15.668,29.26-29.252c0-0.448-0.011-0.894-0.03-1.332C46.94,14.313,48.684,12.5,50.061,10.438z" />
+                  </svg>
+               </a></li>
+            <li class="social__item"><a href="https://fb.com" class="social__link social__link_pinterest">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50"
+                     enable-background="new 0 0 50 50" xml:space="preserve">
+                     <path d="M25,2C12.3178711,2,2,12.3178711,2,25c0,9.8841553,6.2675781,18.3302612,15.036377,21.5769653
+                  	c-0.2525635-2.2515869-0.2129517-5.9390259,0.2037964-7.7243652c0.3902588-1.677002,2.5212402-10.6871338,2.5212402-10.6871338
+                  	s-0.6433105-1.2883301-0.6433105-3.1911011c0-2.9901733,1.7324219-5.2211914,3.8898315-5.2211914
+                  	c1.8349609,0,2.7197876,1.3776245,2.7197876,3.0281982c0,1.8457031-1.1734619,4.6026611-1.78125,7.1578369
+                  	c-0.506897,2.1409302,1.0733643,3.8865356,3.1836548,3.8865356c3.821228,0,6.7584839-4.0296021,6.7584839-9.8453369
+                  	c0-5.147583-3.697998-8.7471924-8.9795532-8.7471924c-6.1167603,0-9.7072754,4.588562-9.7072754,9.3309937
+                  	c0,1.8473511,0.7111816,3.8286743,1.6000977,4.9069824c0.175293,0.2133179,0.2009277,0.3994141,0.1488647,0.6160278
+                  	c-0.1629028,0.678894-0.5250854,2.1392822-0.5970459,2.4385986c-0.0934448,0.3944702-0.3117676,0.4763184-0.7186279,0.2869263
+                  	c-2.685791-1.2503052-4.364502-5.1756592-4.364502-8.3295898c0-6.7815552,4.9268188-13.0108032,14.206543-13.0108032
+                  	c7.4588623,0,13.2547607,5.3138428,13.2547607,12.4179077c0,7.4100342-4.6729126,13.3729858-11.1568604,13.3729858
+                  	c-2.178894,0-4.2263794-1.132019-4.9267578-2.4691772c0,0-1.0783081,4.1048584-1.3404541,5.1112061
+                  	c-0.4524536,1.7404175-2.3892822,5.3460083-3.3615723,6.9837036C20.1704712,47.6074829,22.5397949,48,25,48
+                  	c12.6826172,0,23-10.3173828,23-23C48,12.3178711,37.6826172,2,25,2z" />
+                  </svg>
+               </a></li>
+         </ul>
+      </div>
+      <div class="footer__bottom">
+         <p class="address__text">Copyright 2016 - All Rights Reserved - Designed by JD</p>
+      </div>
+   </footer>
+</body>
+
+</html>
